@@ -192,28 +192,28 @@ export default function Home() {
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body items-center text-center">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center mb-4 animate-bounce-in">
-                  <span className="text-primary-content font-bold">01</span>
+                  <span className="text-white font-bold">01</span>
                 </div>
-                <h3 className="card-title animate-fade-in">Register Your Artwork</h3>
-                <p className="animate-fade-in animate-delay-100">Upload your artwork details, images, and documentation to create a comprehensive digital record.</p>
+                <h3 className="card-title animate-fade-in text-black">Register Your Artwork</h3>
+                <p className="animate-fade-in animate-delay-100 text-black">Upload your artwork details, images, and documentation to create a comprehensive digital record.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body items-center text-center">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center mb-4 animate-bounce-in animate-delay-200">
-                  <span className="text-primary-content font-bold">02</span>
+                  <span className="text-white font-bold">02</span>
                 </div>
-                <h3 className="card-title animate-fade-in animate-delay-200">Blockchain Verification</h3>
-                <p className="animate-fade-in animate-delay-300">Our system creates a unique digital fingerprint and stores it permanently on the blockchain.</p>
+                <h3 className="card-title animate-fade-in animate-delay-200 text-black">Blockchain Verification</h3>
+                <p className="animate-fade-in animate-delay-300 text-black">Our system creates a unique digital fingerprint and stores it permanently on the blockchain.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body items-center text-center">
                 <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center mb-4 animate-bounce-in animate-delay-400">
-                  <span className="text-primary-content font-bold">03</span>
+                  <span className="text-white font-bold">03</span>
                 </div>
-                <h3 className="card-title animate-fade-in animate-delay-400">Receive Certificate</h3>
-                <p className="animate-fade-in animate-delay-500">Get your official digital certificate of authenticity, recognized by the European Artist Bank.</p>
+                <h3 className="card-title animate-fade-in animate-delay-400 text-black">Receive Certificate</h3>
+                <p className="animate-fade-in animate-delay-500 text-black">Get your official digital certificate of authenticity, recognized by the European Artist Bank.</p>
               </div>
             </div>
           </div>
