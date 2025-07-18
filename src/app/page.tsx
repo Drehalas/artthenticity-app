@@ -55,7 +55,16 @@ export default function Home() {
       <div className="hero min-h-screen gradient-hero">
         <div className="hero-content text-center text-white relative z-10">
           <div className="max-w-4xl">
-            <h1 className="text-9xl md:text-8xl font-bold mb-6 hero-title animate-fade-in">Arthenticity</h1>
+            <div className="mb-6 animate-fade-in flex justify-center">
+              <Image
+                src="/Arthenticity_Wordmarke.svg"
+                alt="Arthenticity"
+                width={600}
+                height={200}
+                className="hero-logo"
+                priority
+              />
+            </div>
             <p className="text-2xl md:text-3xl mb-8 hero-subtitle animate-fade-in animate-delay-200 text-white font-light tracking-wide">Blockchain Art Verification Platform—Made By Artists for Artists</p>
             <p className="text-lg md:text-xl pb-8 hero-description text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Secure your artistic legacy with immutable blockchain verification. Protect, authenticate, and track your artwork's provenance under the European Artist Bank ecosystem.
@@ -93,8 +102,8 @@ export default function Home() {
       {/* Supported Blockchains */}
       <div className="bg-base-100 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 animate-fade-in">Art Verification on Leading Blockchain Networks</h2>
-          <p className="text-center mb-8 animate-fade-in animate-delay-100">Secure your artwork's authenticity across multiple trusted blockchain platforms with Hyperbridge Network</p>
+          <h2 className="text-3xl font-bold text-center mb-12 animate-fade-in text-black">Art Verification on Leading Blockchain Networks</h2>
+          <p className="text-center mb-8 animate-fade-in animate-delay-100 text-black">Secure your artwork's authenticity across multiple trusted blockchain platforms with Hyperbridge Network</p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
             {blockchains.map((chain, index) => (
@@ -110,7 +119,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <span className="font-medium mt-3">{chain.name}</span>
+                <span className="font-medium mt-3 text-black">{chain.name}</span>
               </div>
             ))}
           </div>
@@ -119,8 +128,8 @@ export default function Home() {
 
       {/* Features Section */}
       <div id="features" className="container mx-auto py-16 px-4">
-        <h2 className="text-5xl font-bold text-center mb-4 animate-fade-in">Advanced Art Authentication Technology</h2>
-        <p className="text-center mb-12 animate-fade-in animate-delay-100">Our platform combines blockchain security with artist-focused tools to deliver comprehensive art verification and provenance tracking.</p>
+        <h2 className="text-5xl font-bold text-center mb-4 animate-fade-in text-black">Advanced Art Authentication Technology</h2>
+        <p className="text-center mb-12 animate-fade-in animate-delay-100 text-black">Our platform combines blockchain security with artist-focused tools to deliver comprehensive art verification and provenance tracking.</p>
         
         <div className="tabs tabs-boxed flex justify-center mb-12 animate-fade-in animate-delay-200">
           <a 
@@ -221,16 +230,16 @@ export default function Home() {
               <div className="card-body items-center text-center">
                 <div className="avatar mb-6 animate-bounce-in">
                   <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img src="/ines.jpeg" alt="Dr. Ines O'Donovan" className="rounded-full" />
+                    <img src="/Paul.jpg" alt="Paul Thomas" className="rounded-full" />
                   </div>
                 </div>
                 <blockquote className="text-lg mb-6 animate-fade-in animate-delay-200 italic leading-relaxed max-w-xl">
-                  "Since integrating Arthenticity into our gallery's authentication process, we've gained unprecedented confidence in artwork provenance. The blockchain verification gives both artists and collectors the security they need in today's art market."
+                  "The blockchain solution for authentic art verification is here. Trust is good. Verification is better. The European Artist Bank establishes the framework for the future of verifiably authentic works of art."
                 </blockquote>
                 <div className="animate-fade-in animate-delay-300">
-                  <h3 className="text-xl font-bold text-primary mb-1">Dr. Ines O'Donovan, PhD</h3>
-                  <p className="text-lg font-semibold text-secondary mb-1">The Ageless Futurist</p>
-                  <p className="text-base font-medium text-accent">CEO, Jeunessima Magazine</p>
+                  <h3 className="text-xl font-bold text-primary mb-1">Paul Thomas</h3>
+                  <p className="text-lg font-semibold text-secondary mb-1">Digital Art Advisor</p>
+                  <p className="text-base font-medium text-accent">Creative & Artist in Web3</p>
                 </div>
               </div>
             </div>
@@ -251,8 +260,8 @@ export default function Home() {
 
       {/* FAQ Section */}
       <div id="faq" className="container mx-auto py-16 px-4">
-        <h2 className="text-5xl font-bold text-center mb-12 animate-fade-in">Frequently Asked Questions</h2>
-        <p className="text-center mb-8 animate-fade-in animate-delay-100">Everything you need to know about blockchain art verification and authentication</p>
+        <h2 className="text-5xl font-bold text-center mb-12 animate-fade-in text-black">Frequently Asked Questions</h2>
+        <p className="text-center mb-8 animate-fade-in animate-delay-100 text-black">Everything you need to know about blockchain art verification and authentication</p>
         
         <div className="max-w-3xl mx-auto">
           {faqs.map((faq, index) => (
@@ -267,11 +276,11 @@ export default function Home() {
                 onChange={() => toggleFaq(index)}
                 className="min-h-[3rem]" 
               />
-              <div className="collapse-title text-xl font-medium min-h-[3rem] flex items-center">
+              <div className="collapse-title text-xl font-medium min-h-[3rem] flex items-center text-black">
                 {faq.question}
               </div>
               <div className="collapse-content">
-                <p>{faq.answer}</p>
+                <p className="text-black">{faq.answer}</p>
               </div>
             </div>
           ))}

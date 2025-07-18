@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link'
-import ThemeSwitcher from './ThemeSwitcher';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +30,7 @@ export default function Navbar() {
             </ul>
           )}
         </div>
-        <Link href="/" className="btn btn-ghost text-xl animate-fade-in">Arthenticity</Link>
+        <Link href="/" className="btn btn-ghost text-xl animate-fade-in">ARThenticity</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -42,8 +41,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <ThemeSwitcher />
-        <Link href="https://6e0907dab094d1512a9b569584b75b0ac17fa88f-5678.dstack-prod5.phala.network/form/e59e78eb-05e0-4c94-b53b-15c9e83045f5" className="btn btn-primary ml-2 animate-bounce-in animate-delay-400 hover:animate-pulse-soft">Launch dApp</Link>
+        <Link href="https://6e0907dab094d1512a9b569584b75b0ac17fa88f-5678.dstack-prod5.phala.network/form/e59e78eb-05e0-4c94-b53b-15c9e83045f5" className="btn btn-primary animate-bounce-in animate-delay-400 hover:animate-pulse-soft">Launch dApp</Link>
       </div>
     </div>
   );
