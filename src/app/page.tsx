@@ -150,38 +150,38 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 animate-slide-up">
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body">
-                <h3 className="card-title animate-fade-in">Blockchain Art Authentication</h3>
-                <p className="animate-fade-in animate-delay-100">Create immutable digital certificates for your artworks with tamper-proof blockchain technology.</p>
+                <h3 className="card-title animate-fade-in text-black">Blockchain Art Authentication</h3>
+                <p className="animate-fade-in animate-delay-100 text-black">Create immutable digital certificates for your artworks with tamper-proof blockchain technology.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body">
-                <h3 className="card-title animate-fade-in animate-delay-200">Provenance Tracking</h3>
-                <p className="animate-fade-in animate-delay-300">Maintain complete ownership history and exhibition records for your artworks throughout their lifetime.</p>
+                <h3 className="card-title animate-fade-in animate-delay-200 text-black">Provenance Tracking</h3>
+                <p className="animate-fade-in animate-delay-300 text-black">Maintain complete ownership history and exhibition records for your artworks throughout their lifetime.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body">
-                <h3 className="card-title animate-fade-in animate-delay-400">Artist Rights Protection</h3>
-                <p className="animate-fade-in animate-delay-500">Protect your intellectual property with legally recognized digital certificates and ownership proofs.</p>
+                <h3 className="card-title animate-fade-in animate-delay-400 text-black">Artist Rights Protection</h3>
+                <p className="animate-fade-in animate-delay-500 text-black">Protect your intellectual property with legally recognized digital certificates and ownership proofs.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body">
-                <h3 className="card-title animate-fade-in">European Artist Bank Integration</h3>
-                <p className="animate-fade-in animate-delay-100">Seamlessly integrate with European Artist Bank standards and recognition systems.</p>
+                <h3 className="card-title animate-fade-in text-black">European Artist Bank Integration</h3>
+                <p className="animate-fade-in animate-delay-100 text-black">Seamlessly integrate with European Artist Bank standards and recognition systems.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body">
-                <h3 className="card-title animate-fade-in animate-delay-200">Digital Art Certificates</h3>
-                <p className="animate-fade-in animate-delay-300">Generate professional digital certificates that can be verified by galleries, collectors, and institutions.</p>
+                <h3 className="card-title animate-fade-in animate-delay-200 text-black">Digital Art Certificates</h3>
+                <p className="animate-fade-in animate-delay-300 text-black">Generate professional digital certificates that can be verified by galleries, collectors, and institutions.</p>
               </div>
             </div>
             <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="card-body">
-                <h3 className="card-title animate-fade-in animate-delay-400">Artist-Friendly Interface</h3>
-                <p className="animate-fade-in animate-delay-500">Designed by artists for artists—intuitive tools that understand the creative process and artistic needs.</p>
+                <h3 className="card-title animate-fade-in animate-delay-400 text-black">Artist-Friendly Interface</h3>
+                <p className="animate-fade-in animate-delay-500 text-black">Designed by artists for artists—intuitive tools that understand the creative process and artistic needs.</p>
               </div>
             </div>
           </div>
